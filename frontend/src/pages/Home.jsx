@@ -20,7 +20,7 @@ const Home = () => {
       {/* 1. HERO SECTION */}
       <Hero />
 
-      {/* 2. PROFIL DESKRIPSI KOPDES */}
+      {/* 2. PROFIL DESKRIPSI KOPERASI */}
       <ProfileSection />
 
       {/* 3. VISI & MISI */}
@@ -40,7 +40,7 @@ const Home = () => {
             subtitle="Unit Usaha Terpadu"
             title="Layanan Utama Koperasi"
             highlight="Desa"
-            description="Beberapa unit usaha prioritas Kopdes Merah Putih yang melayani kebutuhan warga desa."
+            description="Beberapa unit usaha prioritas Koperasi yang melayani kebutuhan warga desa."
             badge="Unit Layanan"
           />
 

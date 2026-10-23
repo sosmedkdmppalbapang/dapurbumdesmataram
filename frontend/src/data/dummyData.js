@@ -2,15 +2,15 @@ import logoImg from '../assets/logo/logo.png';
 
 export const kopdesData = {
   // Brand & Identity
-  name: "Koperasi Desa Merah Putih",
-  shortName: "Kopdes Merah Putih",
-  branchName: "Kopdes Merah Putih - Desa Kertamukti",
+  name: "Koperasi",
+  shortName: "Koperasi",
+  branchName: "Koperasi - Desa Kertamukti",
   tagline: "Membangun Kemandirian Ekonomi Desa Berbasis Gotong Royong",
   logo: logoImg,
   heroImage: "https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&w=800&q=80",
 
   // General Description
-  description: "Koperasi Desa Merah Putih (Kopdes Merah Putih) adalah lembaga ekonomi desa berbasis gotong royong yang berkomitmen memperkuat kedaulatan pangan, mendampingi UMKM lokal, serta menyediakan layanan usaha terpadu bagi warga desa secara profesional, adil, dan terpercaya.",
+  description: "Koperasi (Koperasi) adalah lembaga ekonomi desa berbasis gotong royong yang berkomitmen memperkuat kedaulatan pangan, mendampingi UMKM lokal, serta menyediakan layanan usaha terpadu bagi warga desa secara profesional, adil, dan terpercaya.",
 
   // Legal Status / Badan Hukum (2 Items)
   legal: {
@@ -34,7 +34,7 @@ export const kopdesData = {
       nama: "H. Suryana, S.P.",
       jabatan: "Ketua Pengurus",
       foto: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
-      pesan: "Kopdes Merah Putih hadir sebagai benteng ekonomi desa untuk memastikan hasil jerih payah warga kembali untuk kesejahteraan bersama."
+      pesan: "Koperasi hadir sebagai benteng ekonomi desa untuk memastikan hasil jerih payah warga kembali untuk kesejahteraan bersama."
     },
     sekretaris: {
       nama: "Ahmad Budiman, S.T.",
@@ -52,7 +52,7 @@ export const kopdesData = {
       nama: "Drs. H. Mulyadi, M.Si.",
       jabatan: "Ketua Pengawas",
       foto: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80",
-      pesan: "Kami memastikan seluruh operasional Kopdes Merah Putih senantiasa mematuhi regulasi hukum dan AD/ART koperasi."
+      pesan: "Kami memastikan seluruh operasional Koperasi senantiasa mematuhi regulasi hukum dan AD/ART koperasi."
     }
   },
 
@@ -116,7 +116,7 @@ export const kopdesData = {
     },
     {
       id: "layanan-digital",
-      title: "Informasi & Layanan Digital Kopdes",
+      title: "Informasi & Layanan Digital Koperasi",
       icon: "Smartphone",
       description: "Kios informasi digital untuk pengecekan data anggota, informasi program bantuan, dan pengajuan layanan.",
       features: ["Portal Informasi Resmi", "Cek Saldo Cepat", "Kirim Pesan WhatsApp"]
@@ -127,7 +127,7 @@ export const kopdesData = {
   galeri: [
     {
       id: 1,
-      title: "Musyawarah Anggota Tahunan & Pembagian SHU Kopdes Merah Putih",
+      title: "Musyawarah Anggota Tahunan & Pembagian SHU Koperasi",
       caption: "Pelaksanaan Musyawarah Anggota Tahunan (RAT) dihadiri oleh tokoh masyarakat dan pengurus Dinas Koperasi.",
       mediaType: "image",
       url: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80",
@@ -135,8 +135,8 @@ export const kopdesData = {
     },
     {
       id: 2,
-      title: "Panen Raya Padi Bersama Kelompok Tani Binaan Kopdes",
-      caption: "Kegiatan panen raya padi varietas unggul hasil pendampingan pupuk organik dari unit saprotan Kopdes.",
+      title: "Panen Raya Padi Bersama Kelompok Tani Binaan Koperasi",
+      caption: "Kegiatan panen raya padi varietas unggul hasil pendampingan pupuk organik dari unit saprotan Koperasi.",
       mediaType: "image",
       url: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=800&q=80",
       date: "28 April 2026"

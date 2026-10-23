@@ -1,6 +1,6 @@
-# Master Template - Website Koperasi Desa (KOPDES)
+# Master Template - Website Koperasi (KOPERASI)
 
-Template *website* siap pakai yang dirancang khusus untuk Koperasi Desa. Proyek ini dibangun menggunakan arsitektur modern (React + Supabase) yang memungkinkan *deployment* secara masal dan pengelolaan konten mandiri melalui CMS (*Content Management System*) bawaan.
+Template *website* siap pakai yang dirancang khusus untuk Koperasi. Proyek ini dibangun menggunakan arsitektur modern (React + Supabase) yang memungkinkan *deployment* secara masal dan pengelolaan konten mandiri melalui CMS (*Content Management System*) bawaan.
 
 ---
 
