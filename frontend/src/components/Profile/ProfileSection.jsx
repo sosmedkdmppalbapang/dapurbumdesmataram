@@ -15,9 +15,9 @@ const ProfileSection = () => {
         <SectionTitle
           subtitle="Profil Lembaga"
           title="Tentang Koperasi"
-          highlight="Resmi"
+          highlight=""
           description="Lembaga ekonomi berbasis kekeluargaan yang didirikan untuk mengangkat harkat ekonomi warga desa."
-          badge="Profil Resmi"
+          badge="Profil"
         />
 
         {/* Section 1: Story & Brand Frame */}
@@ -107,7 +107,7 @@ const ProfileSection = () => {
                 <span>Lokasi Sekretariat Koperasi</span>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-900">Alamat Kantor Resmi</h3>
+              <h3 className="text-xl font-bold text-slate-900">Alamat Kantor</h3>
               
               <p className="text-slate-600 text-sm leading-relaxed">
                 {kopdesData.kontak.alamat}

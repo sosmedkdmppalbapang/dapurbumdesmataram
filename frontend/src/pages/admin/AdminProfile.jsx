@@ -294,7 +294,7 @@ const AdminProfile = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs pt-2">
           <div className="p-4 bg-slate-50 rounded-lg border border-slate-200 space-y-1.5">
             <span className="font-bold text-slate-700 flex items-center gap-1.5 mb-2">
-               Nomor Badan Hukum Resmi
+               Nomor Badan Hukum
             </span>
             <input
               type="text"

@@ -144,7 +144,7 @@ const AdminFooter = () => {
           <div className="flex items-center gap-2 border-b border-slate-200 pb-3">
             <Facebook className="w-4 h-4 text-primary" />
             <h2 className="text-sm font-bold text-slate-900 uppercase tracking-wider">
-              2. Link Akun Media Sosial Resmi
+              2. Link Akun Media Sosial
             </h2>
           </div>
 

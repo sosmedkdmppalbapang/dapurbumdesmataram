@@ -100,7 +100,7 @@ const AdminDashboard = () => {
         {/* Profile Status */}
         <div className="lg:col-span-6 bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-4">
           <div className="flex items-center justify-between border-b border-slate-100 pb-3">
-            <h3 className="text-sm font-bold text-slate-900">Profil & Badan Hukum Resmi</h3>
+            <h3 className="text-sm font-bold text-slate-900">Profil & Badan Hukum</h3>
             <Link to="/admin/profile" className="text-xs text-primary font-bold hover:underline">
               Kelola &rarr;
             </Link>

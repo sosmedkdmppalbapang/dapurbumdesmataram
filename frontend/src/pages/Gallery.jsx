@@ -65,7 +65,7 @@ const Gallery = () => {
             subtitle="Momen Lapangan"
             title="Dokumentasi & Aktivitas Desa"
             highlight="Terbaru"
-            badge="Dokumentasi Resmi"
+            badge="Dokumentasi"
           />
 
           {(!kopdesData.galeri || kopdesData.galeri.length === 0) ? (

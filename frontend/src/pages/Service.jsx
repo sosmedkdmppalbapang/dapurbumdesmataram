@@ -18,7 +18,7 @@ const Service = () => {
             Unit Layanan & Usaha Koperasi
           </h1>
           <p className="text-slate-300 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
-            Daftar unit layanan usaha resmi Koperasi untuk melayani dan memberdayakan masyarakat desa.
+            Daftar unit layanan usaha Koperasi untuk melayani dan memberdayakan masyarakat desa.
           </p>
         </div>
       </section>

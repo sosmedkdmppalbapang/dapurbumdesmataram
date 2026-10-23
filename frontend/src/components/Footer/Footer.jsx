@@ -36,7 +36,7 @@ const Footer = () => {
 
             <div className="pt-1 flex items-center gap-2 text-xs text-slate-400 font-medium">
               <ShieldCheck className="w-4 h-4 text-red-500 flex-shrink-0" />
-              <span>Badan Hukum Resmi: {kopdesData.legal?.badanHukum}</span>
+              <span>Badan Hukum: {kopdesData.legal?.badanHukum}</span>
             </div>
           </div>
 
@@ -94,7 +94,7 @@ const Footer = () => {
 
             {/* Social Links */}
             <div className="pt-2">
-              <p className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2">Media Sosial Resmi</p>
+              <p className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2">Media Sosial</p>
               <div className="flex items-center gap-2.5">
                 <a
                   href={kopdesData.kontak?.sosialMedia?.facebook || '#'}

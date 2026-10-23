@@ -29,7 +29,7 @@ const Hero = () => {
 
             {/* Subtitle */}
             <p className="text-base text-slate-600 font-normal leading-relaxed max-w-2xl mb-8">
-              Selamat datang di portal resmi <strong className="text-slate-900 font-semibold">Koperasi - {kopdesData.namaKoperasi || 'Desa Anda'}</strong>. Lembaga ekonomi terpadu untuk pelayanan usaha warga, pemberdayaan anggota, dan ketahanan pangan pedesaan.
+              Selamat datang di portal <strong className="text-slate-900 font-semibold">Koperasi - {kopdesData.namaKoperasi || 'Desa Anda'}</strong>. Lembaga ekonomi terpadu untuk pelayanan usaha warga, pemberdayaan anggota, dan ketahanan pangan pedesaan.
             </p>
 
             {/* Action CTAs */}
@@ -54,7 +54,7 @@ const Hero = () => {
             {/* Micro Legal Info */}
             <div className="flex items-center gap-2 pt-5 border-t border-slate-200 w-full text-xs font-semibold text-slate-600">
               <ShieldCheck className="w-4 h-4 text-primary flex-shrink-0" />
-              <span>Badan Hukum Resmi: {kopdesData.legal?.badanHukum}</span>
+              <span>Badan Hukum: {kopdesData.legal?.badanHukum}</span>
             </div>
 
           </motion.div>
@@ -83,7 +83,7 @@ const Hero = () => {
                   </div>
                 </div>
                 <span className="text-[11px] font-semibold px-2.5 py-1 rounded bg-slate-100 text-slate-700">
-                  Instansi Resmi
+                  Koperasi
                 </span>
               </div>
             </div>

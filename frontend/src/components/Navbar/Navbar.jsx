@@ -144,7 +144,7 @@ const Navbar = () => {
                 KOPERASI <span className="uppercase">{kopdesData.namaKoperasi || 'Desa Anda'}</span>
               </span>
               <span className="text-[11px] font-semibold text-primary uppercase tracking-wider mt-1">
-                Portal Resmi Koperasi
+                Portal Koperasi
               </span>
             </div>
           </Link>
