@@ -29,7 +29,7 @@ const Hero = () => {
 
             {/* Subtitle */}
             <p className="text-base text-slate-600 font-normal leading-relaxed max-w-2xl mb-8">
-              Selamat datang di portal <strong className="text-slate-900 font-semibold">Koperasi - {kopdesData.namaKoperasi || ''}</strong>. Lembaga ekonomi terpadu untuk pelayanan usaha warga dan pemberdayaan anggota.
+              Selamat datang di portal layanan terpadu <strong className="text-slate-900 font-semibold">Koperasi - {kopdesData.namaKoperasi || ''}</strong>. Kunjungi portal kami untuk mendapatkan informasi lengkap seputar layanan dan kemitraan bersama kami.
             </p>
 
             {/* Action CTAs */}
