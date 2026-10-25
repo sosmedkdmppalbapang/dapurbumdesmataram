@@ -24,12 +24,12 @@ const Hero = () => {
             {/* Main Headline */}
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-[1.2] mb-5">
               Profil Koperasi <br className="hidden sm:block" />
-              <span className="text-primary">{kopdesData.namaKoperasi || 'Desa Anda'}</span>
+              <span className="text-primary">{kopdesData.namaKoperasi || ''}</span>
             </h1>
 
             {/* Subtitle */}
             <p className="text-base text-slate-600 font-normal leading-relaxed max-w-2xl mb-8">
-              Selamat datang di portal <strong className="text-slate-900 font-semibold">Koperasi - {kopdesData.namaKoperasi || 'Desa Anda'}</strong>. Lembaga ekonomi terpadu untuk pelayanan usaha warga, pemberdayaan anggota, dan ketahanan pangan pedesaan.
+              Selamat datang di portal <strong className="text-slate-900 font-semibold">Koperasi - {kopdesData.namaKoperasi || ''}</strong>. Lembaga ekonomi terpadu untuk pelayanan usaha warga dan pemberdayaan anggota.
             </p>
 
             {/* Action CTAs */}
@@ -79,7 +79,7 @@ const Hero = () => {
                   <img src={kopdesData.logo} alt="Logo" className="h-8 w-auto object-contain" />
                   <div>
                     <h4 className="text-xs font-bold text-slate-900">KOPERASI</h4>
-                    <p className="text-[11px] text-slate-500">{kopdesData.namaKoperasi || 'Desa Anda'}</p>
+                    <p className="text-[11px] text-slate-500">{kopdesData.namaKoperasi || ''}</p>
                   </div>
                 </div>
                 <span className="text-[11px] font-semibold px-2.5 py-1 rounded bg-slate-100 text-slate-700">

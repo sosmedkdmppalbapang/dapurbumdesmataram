@@ -16,7 +16,7 @@ const ProfileSection = () => {
           subtitle="Profil Lembaga"
           title="Tentang Koperasi"
           highlight=""
-          description="Lembaga ekonomi berbasis kekeluargaan yang didirikan untuk mengangkat harkat ekonomi warga desa."
+          description="Lembaga ekonomi berbasis kekeluargaan yang didirikan untuk mengangkat harkat ekonomi warga dan anggota."
           badge="Profil"
         />
 
@@ -40,24 +40,16 @@ const ProfileSection = () => {
             </p>
 
             <p className="text-slate-600 text-sm leading-relaxed">
-              Kehadiran Koperasi menjadi wujud komitmen bersama antara pemerintah dan masyarakat desa dalam menciptakan ekosistem usaha pedesaan yang sehat, mandiri, dan transparan.
+              Kehadiran Koperasi menjadi wujud komitmen bersama dalam menciptakan ekosistem usaha yang sehat, mandiri, dan transparan.
             </p>
 
             {/* Quick Status Cards */}
-            <div className="pt-3 grid grid-cols-1 sm:grid-cols-2 gap-3.5">
-              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-3">
+            <div className="pt-3">
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-3 max-w-md">
                 <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                 <div>
                   <h4 className="text-xs font-bold text-slate-900 uppercase">Wilayah Operasional</h4>
                   <p className="text-xs text-slate-600 mt-0.5">{kopdesData.legal.wilayahKerja}</p>
-                </div>
-              </div>
-
-              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-3">
-                <ShieldCheck className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <div>
-                  <h4 className="text-xs font-bold text-slate-900 uppercase">Status Keanggotaan</h4>
-                  <p className="text-xs text-slate-600 mt-0.5">{kopdesData.legal.statusKeanggotaan}</p>
                 </div>
               </div>
             </div>

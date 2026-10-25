@@ -5,12 +5,12 @@ export const kopdesData = {
   name: "Koperasi",
   shortName: "Koperasi",
   branchName: "Koperasi - Desa Kertamukti",
-  tagline: "Membangun Kemandirian Ekonomi Desa Berbasis Gotong Royong",
+  tagline: "Membangun Kemandirian Ekonomi Berbasis Gotong Royong",
   logo: logoImg,
   heroImage: "https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&w=800&q=80",
 
   // General Description
-  description: "Koperasi (Koperasi) adalah lembaga ekonomi desa berbasis gotong royong yang berkomitmen memperkuat kedaulatan pangan, mendampingi UMKM lokal, serta menyediakan layanan usaha terpadu bagi warga desa secara profesional, adil, dan terpercaya.",
+  description: "Koperasi adalah lembaga ekonomi berbasis gotong royong yang berkomitmen mendampingi UMKM lokal serta menyediakan layanan usaha terpadu bagi warga dan anggota secara profesional, adil, dan terpercaya.",
 
   // Legal Status / Badan Hukum (2 Items)
   legal: {
